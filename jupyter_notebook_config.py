@@ -3,7 +3,7 @@
 c.ServerProxy.servers = {
     'streamlit_hello': {
         'command': ['streamlit', 'hello'],
-        'timeout': 0,
+        'timeout': 10000,
         'launcher_entry': {
             'enabled': True,
             'title': 'streamlit_hello',
