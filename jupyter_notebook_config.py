@@ -1,12 +1,11 @@
 # Traitlet configuration file for jupyter-notebook.
 
 c.ServerProxy.servers = {
-    'openrefine': {
-        'command': ['streamlit', 'run', 'https://raw.githubusercontent.com/streamlit/demo-self-driving/master/app.py'],
-        'timeout': 120,
+    'streamlit_hello': {
+        'command': ['streamlit', 'hello'],
         'launcher_entry': {
             'enabled': True,
-            'title': 'demo-self-driving',
+            'title': 'streamlit_hello',
         },
     },
 }
