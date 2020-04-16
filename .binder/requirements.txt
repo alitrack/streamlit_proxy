@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+jupyter-server-proxy 
+nbserverproxy
+numpy
+pandas
+sklearn
+plotly
