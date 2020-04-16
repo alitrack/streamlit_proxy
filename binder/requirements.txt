@@ -3,6 +3,7 @@
 
 #git+https://github.com/jupyterlab/jupyterlab
 #git+https://github.com/jupyterhub/jupyter-server-proxy
+nbserverproxy
 streamlit
 opencv-python
 jupyter-server-proxy
